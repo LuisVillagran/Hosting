@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Mi primera página</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    Ingreso de datos
+    <form action="" method="POST">
+        Nombre: <input type="text" name="nombre" id="nombre">
+        <br>Apellido: <input type="text" name="ap" id="ap">
+        <br>Telefono <input type="tel" name="tel" id="tel" >
+        <br>Estado civil 
+        <input type="radio" name="est_civil" id="est_civil1" value="Soltero">Soltero
+        <input type="radio" name="est_civil" id="est_civil2" value="casado">Casado
+        <input type="radio" name="est_civil" id="est_civil3" value="viudo">Viudo
+        <input type="radio" name="est_civil" id="est_civil4" value="divorciado">Divorciado
+        <br>Idiomas que habla
+        <input type="checkbox" name="idioma" id="idioma1" value="Inglés">Inglés
+        <input type="checkbox" name="idioma" id="idioma2" value="Español">Español
+        <input type="checkbox" name="idioma" id="idioma3" value="Francés">Francés
+        <input type="checkbox" name="idioma" id="idioma4" value="Alemán">Alemán
+        <br>
+        Ciudad: 
+        <select name="ciudad" id="ciudad">
+            <option value="Angol">Angol</option>
+            <option value="Collipulli">Collipulli</option>
+            <option value="Temuco">Temuco</option>
+            <option value="Melipeuco">Melipeuco</option>
+            <option value="Traiguén">Traiguén</option>
+        </select>
+        <br>
+        Fecha de nacimiento:
+        <input date="">
+        <br>
+        Comentarios: 
+        <textarea name="comentario" id="comentario"></textarea>
+        <br>
+        <input type="submit" name="btEnviar" id="btEnviar" value="Enviar datos">
+    </form>
+
+    <br>
+    <a href="mailto:snaminao@santotomas.cl">snaminao@santotomas.cl</a>
+    </body>
+
+</html>

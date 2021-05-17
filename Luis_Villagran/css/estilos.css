@@ -1,0 +1,48 @@
+body{
+    background-image: url("../img/fondo1.png");
+    color: white;
+    background-repeat: repeat;  
+    background-attachment:fixed;
+}
+#seccion2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+
+}
+#seccion1{
+    width: 20%;
+    float: left;
+}
+
+#seccion1 img{
+    width: 150px;
+    height: 100px;
+}
+a:link{
+    color:wheat;
+    text-decoration: none;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color:greenyellow;
+}
+nav{
+    text-align: center;
+}
+header{
+    height: 20%;
+    text-align: center;
+}
+header span{
+    margin: auto;
+}
+footer{
+    clear: none;
+}
+input{
+    font-family: 'Courier New', Courier, monospace
+}
